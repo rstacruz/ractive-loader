@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://git.github.com/rstacruz/ractive-loader.git"
+    "url": "https://github.com/rstacruz/ractive-loader.git"
   },
   "keywords": [
     "webpack",
