@@ -35,6 +35,17 @@ new Ractive({
 });
 ```
 
+## Alternate usage
+
+You can also use it without modifying your config. Just explicitly call it on 
+your `require()` call via a prefix:
+
+```js
+new Ractive({
+  template: require('ractive!./mytemplate.html')
+});
+```
+
 License
 -------
 
