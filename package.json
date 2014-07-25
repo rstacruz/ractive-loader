@@ -1,6 +1,6 @@
 {
   "name": "ractive-loader",
-  "version": "0.4.0-pre2",
+  "version": "0.5.5",
   "description": "ractive template loader module for webpack",
   "main": "index.js",
   "repository": {
@@ -16,6 +16,6 @@
   "author": "Rico Sta. Cruz <hi@ricostacruz.com>",
   "license": "MIT",
   "dependencies": {
-    "ractive": "^0.4.0-pre2"
+    "ractive": "^0.5.5"
   }
 }
