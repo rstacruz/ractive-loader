@@ -1,11 +1,11 @@
 {
   "name": "ractive-loader",
-  "version": "0.4.0-pre2",
+  "version": "0.5.5",
   "description": "ractive template loader module for webpack",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rstacruz/ractive-loader.git"
+    "url": "https://github.com/doctyper/ractive-loader.git"
   },
   "keywords": [
     "webpack",
@@ -15,7 +15,7 @@
   ],
   "author": "Rico Sta. Cruz <hi@ricostacruz.com>",
   "license": "MIT",
-  "dependencies": {
-    "ractive": "^0.4.0-pre2"
+  "peerDependencies": {
+    "ractive": "^0.5.5"
   }
 }
