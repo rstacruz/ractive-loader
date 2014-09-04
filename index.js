@@ -1,4 +1,6 @@
-module.exports = function(str) {
-  var Ractive = require('ractive');
-  return 'module.exports=' + JSON.stringify(Ractive.parse(str)) + ';';
+module.exports = function (source) {
+	var Ractive = require("ractive");
+
+	this.cacheable();
+	return "module.exports=" + JSON.stringify(Ractive.parse(source)) + ";";
 };
