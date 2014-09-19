@@ -2,6 +2,9 @@
 
 Exports a [Ractive] template as a compiled template for [webpack].
 
+
+[![Status](http://img.shields.io/travis/rstacruz/ractive-loader/master.svg?style=flat)](https://travis-ci.org/rstacruz/ractive-loader "See test builds")
+
 ## Usage
 
 [Documentation: using loaders](http://webpack.github.io/docs/using-loaders.html)
