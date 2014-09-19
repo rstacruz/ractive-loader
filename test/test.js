@@ -20,14 +20,13 @@ describe('ractive-loader', function () {
     /* pass */
   });
 
-  it('sets the cacheable flag', function () {
-    loader.apply(obj, ['hi']);
-    expect(cached).to.be.true;
-  });
-
   describe('a simple template', function () {
     beforeEach(function () {
       out = loader.apply(obj, ['hello {{world}}']);
+    });
+
+    it('sets the cacheable flag', function () {
+      expect(cached).to.be.true;
     });
 
     it('is wrapped in module.exports', function () {
