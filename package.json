@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/doctyper/ractive-loader.git"
+    "url": "https://github.com/rstacruz/ractive-loader.git"
   },
   "keywords": [
     "webpack",
@@ -16,6 +16,6 @@
   "author": "Rico Sta. Cruz <hi@ricostacruz.com>",
   "license": "MIT",
   "peerDependencies": {
-    "ractive": "^0.5.6"
+    "ractive": "~0"
   }
 }
